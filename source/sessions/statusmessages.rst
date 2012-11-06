@@ -23,7 +23,7 @@ Example::
 
     messages = IStatusMessage(self.request)
 
-    messages.add(u"Item deleted", type=u"info")
+    messages.addStatusMessage(u"Item deleted", type=u"info")
 
 Example which you can use in Python scripts::
 
